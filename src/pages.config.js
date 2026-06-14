@@ -8,6 +8,7 @@ import Playlists from './pages/Playlists';
 import Trending from './pages/Trending';
 import Notifications from './pages/Notifications';
 import __Layout from './Layout.jsx';
+import Login from './pages/Login';
 
 
 export const PAGES = {
@@ -20,6 +21,7 @@ export const PAGES = {
     "Playlists": Playlists,
     "Trending": Trending,
     "Notifications": Notifications,
+    "Login": Login,
 }
 
 export const pagesConfig = {
